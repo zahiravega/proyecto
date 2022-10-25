@@ -1,0 +1,6 @@
+peluqueria
+informaciòn sobre salon de peluqueria,informacion sobre productos y como usarlos, promos, precios, tips sobre cuidado del pelo
+pagina de salòn, vender productos, aumentar clientes e info
+header(logo-peluqueria pato)
+footer(numero de telefono)
+inico(foto del local
