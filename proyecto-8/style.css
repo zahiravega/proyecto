@@ -1,13 +1,19 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Barlow:ital,wght@1,300;1,400&family=Dosis:wght@500&family=Play&display=swap');
 p{
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 }
-li{
-    background-color: black;
-}
+
 a{
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 }
-.dropdown-menu{
+
+
+
+.marg {
+    margin-top: 100px;
+}
+h1{ 
+    font-family: 'Bebas Neue', cursive;
     color: aliceblue;
+    text-align: center;
 }
