@@ -17,3 +17,17 @@ h1{
     color: aliceblue;
     text-align: center;
 }
+.letra{ 
+    color: black;
+    text-align: justify;
+}
+.quienes{
+    text-align: justify;
+}
+.titulo{
+    color: black;
+    text-align: center;
+}
+.somos{
+    text-align: center;
+}
