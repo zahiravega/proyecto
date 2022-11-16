@@ -31,3 +31,14 @@ h1{
 .somos{
     text-align: center;
 }
+.accordion-button{
+    color: white;
+    background-color: black;
+}
+.accordion-body{
+    color: rgb(233, 227, 227);
+background-color: black;
+}
+.accordion-button:not(.collapsed){
+    background-color: black;
+}
