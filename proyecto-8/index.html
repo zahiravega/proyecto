@@ -23,8 +23,8 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active ms-auto" aria-current="page" href="#">
-                <p class="fs-5 me-4 ">Historia</p>
+              <a class="nav-link active ms-auto" aria-current="page" href="/index.html">
+                <p class="fs-5 me-4 ">Inicio</p>
               </a>
             </li>
 
@@ -34,8 +34,7 @@
                 <p class="fs-5 me-4">Store</p>
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="/shampoo.html">Shampoo</a></li>
-                <li><a class="dropdown-item" href="/acondicionador.html">Acondicionador</a></li>
+                <li><a class="dropdown-item" href="/shampoo.html">Shampoo y acondicionador </a></li>
                 <li><a class="dropdown-item" href="/nutricion.html">Nutrición levanta muertos</a></li>
                 <li><a class="dropdown-item" href="/bomba.html">Bomba multivitaminica</a></li>
                 <li><a class="dropdown-item" href="/matizadores.html">Matizadores</a></li>
@@ -94,7 +93,7 @@
 
 
   <main>
-    <div class="container-fluid bg-black" id="INICIO">
+    <div class="container-fluid bg-black" id="inicio">
       <div class="row">
         <div class="col d-flex justify-content-center">
           <img src="/imagenes/peluqueura profesional.png" alt="peluqueria">
@@ -113,7 +112,7 @@
 
         <div class="row">
           <div class="col-4">
-            <h1 class="somos">QUIENES SOMOS</h1>
+            <h1 class="somos" id="quienes">QUIENES SOMOS</h1>
             <p class="quienes">El salón se inagura en el 2019 con el propósito de ayudar a mejorar la autopercepción de
               las personas a partir de la salud y la estética capilar.​</p>
             <p class="quienes"> Nuestra misión es obtener la imagen deseada por nuestros clientes, fortaleciendo su
@@ -281,63 +280,78 @@
             </div>
 
             <div class="d-flex justify-content-center">
-            <button type="button" class="btn btn-outline-light d-flex"> <a href="/lista.html">Lista de Precios</a></button>
+              <button type="button" class="btn btn-outline-light d-flex"> <a href="/lista.html">Lista de
+                  Precios</a></button>
             </div>
 
           </div>
 
           <div class="col-7 d-flex justify-content-center">
-            <video src="rabbit320.webm" controls>
-              <p>Tu navegador no soporta HTML5 video. Aquí está el <a href="rabbit320.webm">enlace del video</a>.</p>
-            </video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9NQiBJ7OAYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
           </div>
         </div>
       </div>
 
     </div>
+  </main>
 
     <footer>
       <div class="container-fluid">
         <hr>
         <div class="container">
-          <table class="table table-sm">
-            <thead>
-              <tr>
-                <th scope="col">INSTITUCIONAL</th>
-                <th scope="col">TURNOS</th>
-                <th scope="col">CONTACTOS</th>
-              </tr>
-            </thead>          
-            <tbody>
-              <tr>              
-                <td><a href="#inicio">INICIO</a> </td>
-                <td>Otto</td>
-                <td>@mdo</td>
-              </tr>
-              <tr>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-              </tr>
-              <tr>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="row">
+            <div class="col">
+              <h5>INSTITUCIONAL</h5>
+              <p><a href="#inicio" class="fut">INICIO</a></p>
+              <p><a href="#quienes" class="fut">NOSOTROS</a></p>
+            </div>
+            <div class="col">
+              <h5>TURNOS</h5>
+              <p><a href="/turnos.html" class="fut">TURNOS</a></p>
+              <p><a href="/servicios.html" class="fut">SERVICIOS</a></p>
+              <p><a href="/lista.html" class="fut">LISTA DE PRECIOS</a></p>
+            </div>
+            <div class="col">
+              <h5>CONTACTO</h5>
+              <p class="fut">patrio1972@hotmail.com</p>
+              <p class="fut">+54 2994682045</p>
+              <p class="fut">Lago Guillelmo 1003 - Cipolletti</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <img src="/imagenes/Logo sobre moda femenina minimalista neutral.png" alt="peluqueria" width="200" >
+            </div>
+          </div>
 
-        </div>
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <a class="nav-link py-2 px-0 px-lg-2"
+              href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D"
+              target="_blank" rel="noopener">
+              <img src="/imagenes/twtt.jpg" alt="twitter" width="32px">
+            </a>
+            <a class="nav-link py-2 px-0 px-lg-2" href="https://www.instagram.com/" target="_blank" rel="noopener">
+              <img src="/imagenes/set-of-social-media-icon-in-white-background-free-vector.jpg" alt="instagram" width="32px">
+            </a>
+            <a class="nav-link py-2 px-0 px-lg-2" href="https://web.whatsapp.com/" target="_blank" rel="noopener">
+              <img src="/imagenes/whats.jpg" alt="whatsapp" width="32px">
+            </a>
+            <a class="nav-link py-2 px-0 px-lg-2" href="https://es-la.facebook.com/" target="_blank"
+                referrerpolicy="noopener">
+                <img src="/imagenes/face.jpg" alt=" facebook" width="30px">
+            </div>
+          </div>
       </div>
 
     </footer>
 
 
-    <!-- FIN SERVICIOS-->
 
 
 
-  </main>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"

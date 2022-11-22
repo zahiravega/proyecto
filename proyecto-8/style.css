@@ -42,3 +42,11 @@ background-color: black;
 .accordion-button:not(.collapsed){
     background-color: black;
 }
+.shampoo{
+    color: black;
+    text-align: center;
+    }
+
+.fut{
+    color: black;
+}
